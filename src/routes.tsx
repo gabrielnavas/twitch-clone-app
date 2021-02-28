@@ -52,7 +52,6 @@ const tabBarIconComponentBrowse: ((props: {
   )
 }
 
-
 const tabBarIconComponentEsports: ((props: {
   focused: boolean;
   color: string;
@@ -67,11 +66,10 @@ const tabBarIconComponentEsports: ((props: {
   )
 }
 
-
 const Routes: React.FC = () => (
   <NavigationContainer>
     <Navigator 
-      initialRouteName='Discover'
+      initialRouteName='Following'
       tabBarOptions={{
         style: {
           height: 60,
